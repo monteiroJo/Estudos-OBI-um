@@ -43,7 +43,6 @@ public class poligrama {
 
     static boolean certo(int k) {
 
-        boolean retorno = true;
         for (int i = 0; i < aux.length; i++) {
             aux[i] = 0; base[i] = 0;
         }
@@ -59,13 +58,13 @@ public class poligrama {
 
                     for (int p = 0; p < 26; p++) {
                         if (aux[p] != base[p]) {
-                            retorno = false; 
+                            return false;
                         }
                         aux[p] = 0;
                     }
                 }
             }
         }
-        return retorno;
+        return true;
     }
 }
