@@ -1,3 +1,5 @@
+// zero para cancelar
+
 import java.util.Scanner;
 import java.util.Stack;
 
